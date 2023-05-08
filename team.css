@@ -65,7 +65,7 @@ body{
     padding: 1rem;
     border-top: 2px solid rgba(255, 255, 255, 0.3);
     border-left: 2px solid rgba(255, 255, 255, 0.4);
-    box-shadow: 20px 20px 50px rgba(255, 251, 251, 0.2);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.2);
     width: 13rem;
     max-width: 13rem;
     text-align: center;
