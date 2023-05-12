@@ -10,7 +10,7 @@ body{
     width: 100svw;
     height: 100svh;
     object-fit: cover;
-    opacity: 65%;
+    opacity: 50%;
     z-index: -1;
     filter: blur(5px);
 }
@@ -33,21 +33,50 @@ body{
     margin-right: 20px;
 
 }
-.fndnlogo{
-    max-width: 8rem;
+.ooaalogo{
+    max-width: 4rem;
     
+
+}
+.title{
+    margin: 1rem 2rem 0 2rem;
 
 }
 .title h2{
     color: #fff;
-    font-size: 1.7rem;
+    font-size: 3rem;
     font-weight: 400;
     text-align: center;
     margin: 0;
     padding: 0;
-    font-family: 'Bruno Ace SC',cursive;
+    font-family: poppins;
 
     
+}
+.desc{
+    margin: 1rem 2rem 0 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.desc h2{
+    display: flex;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    width: 50rem;
+    
+}
+.subtitle{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    font-family: poppins;
+
 }
 .container{
     display: flex;
@@ -55,30 +84,30 @@ body{
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    padding-top: 0;
     color: white;
     gap: 1rem;
    
 }
 .container .card{
     background: rgba(255, 255, 255, 0.2);
-    border-radius: 40px 2px 40px 2px;
+    border-radius: 20px 20px 20px 20px;
     margin: 1rem;
     padding: 1rem;
     border-top: 2px solid rgba(255, 255, 255, 0.3);
     border-left: 2px solid rgba(255, 255, 255, 0.4);
     box-shadow: 20px 20px 50px rgba(131, 131, 131, 0.2);
     width: 13rem;
-    max-width: 14rem;
+    max-width: 13rem;
     text-align: center;
     font-family: 'poppins', cursive;
     backdrop-filter: blur(10px);
-    min-height: 20rem;
+    min-height: 18rem;
 }
 .imgbox img{
     margin: 1rem 1rem 0.5rem 1rem;
     max-width: 8rem;
     border-radius: 50%;
-    opacity: 90%;
 }
 .content{
    font-size: 15px;
@@ -87,9 +116,7 @@ body{
     line-height: 1rem;
 }
 .data h2{
-    
     line-height: 2rem;
-    
 }
 .social{
   
